@@ -1,7 +1,7 @@
 class ActiveRecord::Base
   
   def self.namespace_ref
-    self.to_s.underscore.downcase.to_sym
+    new.class.to_s.underscore.downcase.to_sym
   end
   
   def self.class_namespace

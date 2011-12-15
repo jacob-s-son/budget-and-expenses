@@ -5,7 +5,7 @@ class XmlExporter
     ref_to_namespace = exportable.to_s.underscore.downcase.to_sym
     exportable_columns = exportable.column_names - exportable.reflect_on_all_associations.map { |ref| ref.foreign_key.to_s }.uniq - ["id"]
     
-    b = Nokogiri::XML::Builder.new
+    b = Nokogiri::XML::Builder.new(:encoding => 'UTF-8')
     b.RDF("xmlns:rdf" => "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "xmlns:#{exportable.namespace_ref}" => "#{exportable.class_namespace}#") {
       b.parent.namespace = b.parent.add_namespace_definition("rdf", "http://www.w3.org/2003/05/soap-envelope")
       exportable.all.each do |inst|
@@ -17,10 +17,10 @@ class XmlExporter
           #m.class.reflect_on_all_associations(:has_many)
           [:has_many, :has_and_belongs_to_many].each do |assoc_type|
             exportable.reflect_on_all_associations(assoc_type).each do |assoc_ref|
-              puts assoc_ref.name
-              puts inst.send(assoc_ref.name.to_s).inspect
+              # puts assoc_ref.name
+              # puts inst.send(assoc_ref.name.to_s).inspect
               inst.send(assoc_ref.name).each do |assoc|
-                b[ref_to_namespace].send(assoc.to_s.singularize, ( assoc.object_path ) )
+                b[exportable.namespace_ref].send(assoc.class.to_s.singularize.underscore, ( assoc.object_path ) )
               end
             end
           end

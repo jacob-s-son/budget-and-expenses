@@ -9,4 +9,6 @@ BudgetAndExpenses::Application.routes.draw do
   resources :lsdp_operation_results_times, :only => [:index]
   resources :lsdp_policy_results, :only => [:index]
   resources :lsdp_indicators, :only => [:index]
+  
+  root :to => "ministries#index" 
 end

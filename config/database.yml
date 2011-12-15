@@ -8,7 +8,7 @@ development:
   database: specseminars
   username: specseminars
   password: 55d3100b9ee0617eebda1f1805ddc5b5
-  host: ejekabsons.com
+  host: 127.0.0.1
   
 production_test:
   adapter: mysql2
