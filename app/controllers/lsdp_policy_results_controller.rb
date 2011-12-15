@@ -1,0 +1,2 @@
+class LsdpPolicyResultsController < ApplicationController
+end

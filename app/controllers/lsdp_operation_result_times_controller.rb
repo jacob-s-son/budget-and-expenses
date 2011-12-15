@@ -1,0 +1,2 @@
+class LsdpOperationResultTimesController < ApplicationController
+end

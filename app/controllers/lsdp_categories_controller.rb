@@ -1,0 +1,2 @@
+class LsdpCategoriesController < ApplicationController
+end

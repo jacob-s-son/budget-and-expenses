@@ -1,0 +1,2 @@
+class LsdpTasksController < ApplicationController
+end

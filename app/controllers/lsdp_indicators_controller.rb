@@ -1,0 +1,2 @@
+class LsdpIndicatorsController < ApplicationController
+end
