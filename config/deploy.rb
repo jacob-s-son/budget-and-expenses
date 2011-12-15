@@ -36,7 +36,6 @@ set :git_enable_submodules, 1
 
 # rails env
 set(:rails_env) { "#{stage}" }
-load 'deploy/assets'
 
 # tasks
 namespace :deploy do
