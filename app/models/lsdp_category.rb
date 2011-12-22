@@ -3,5 +3,5 @@ class LsdpCategory < ActiveRecord::Base
   has_many :subcategories, :foreign_key => "vecaks_id", :class_name => "LsdpCategory" 
   belongs_to :parent_category, :foreign_key => "vecaks_id", :class_name => "LsdpCategory"
   has_many :lsdp_tasks, :foreign_key => 'kategorija_id'
-  has_many :lsdp_policies, :foreign_key => 'kategorija_id'
+  has_many :lsdp_policy_results, :foreign_key => 'kategorija_id'
 end

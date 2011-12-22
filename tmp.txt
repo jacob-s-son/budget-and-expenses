@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ministry="http://budget-and-expenses.lv/ministries#">
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/1">
+    <ministry:name>Aizsardz?bas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/2">
+    <ministry:name>?rlietu ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/181</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/3">
+    <ministry:name>Ekonomikas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/175</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/176</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/177</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/178</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/179</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/180</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/181</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/184</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/187</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/191</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/192</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/193</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/195</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/196</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/197</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/172</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/173</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/213</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/179</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/214</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/181</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/182</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/186</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/217</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/4">
+    <ministry:name>Finan?u ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/166</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/167</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/168</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/169</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/170</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/171</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/172</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/173</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/211</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/169</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/170</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/212</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/172</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/174</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/217</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/207</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/5">
+    <ministry:name>Iek?lietu ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/201</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/6">
+    <ministry:name>Izgl?t?bas un zin?tnes ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/183</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/185</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/186</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/188</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/189</ministry:lsdp_operation_result>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/190</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/213</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/179</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/214</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/188</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/197</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/198</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/199</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/7">
+    <ministry:name>Kult?ras ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/182</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/8">
+    <ministry:name>Labkl?j?bas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/211</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/186</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/187</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/188</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/9">
+    <ministry:name>Ministru prezidents</ministry:name>
+    <ministry:institution>/</ministry:institution>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/10">
+    <ministry:name>Satiksmes ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/176</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/188</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/216</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/209</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/210</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/11">
+    <ministry:name>Tieslietu ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/172</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/202</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/217</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/12">
+    <ministry:name>Valsts kanceleja</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/217</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/207</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/13">
+    <ministry:name>Vesel?bas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/184</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/188</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/192</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/193</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/194</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/195</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/14">
+    <ministry:name>Vides aizsardz?bas un re?ion?l?s att?st?bas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_operation_result>http://budget-and-expenses.lv/lsdp-operation-results/198</ministry:lsdp_operation_result>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/172</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/177</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/181</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/183</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/215</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/190</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/217</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/209</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/210</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/15">
+    <ministry:name>Zemkop?bas ministrija</ministry:name>
+    <ministry:institution>/</ministry:institution>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/174</ministry:lsdp_category>
+    <ministry:lsdp_category>http://budget-and-expenses.lv/lsdp-categories/175</ministry:lsdp_category>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://budget-and-expenses.lv/ministries/16">
+    <ministry:name>null</ministry:name>
+  </rdf:Description>
+</rdf:RDF>
