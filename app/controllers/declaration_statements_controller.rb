@@ -1,0 +1,2 @@
+class DeclarationStatementsController < ApplicationController
+end

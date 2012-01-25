@@ -5,10 +5,10 @@ class ActiveRecord::Base
   end
   
   def self.class_namespace
-    OBJECT_URLS[namespace_ref].to_s
+    OBJECT_URLS[self.namespace_ref].to_s
   end
   
   def object_path
-    "#{self.class.class_namespace}/#{id}"
+    "#{self.class.class_namespace}/#{self.id}"
   end
 end

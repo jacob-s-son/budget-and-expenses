@@ -1,3 +1,3 @@
 class LsdpIndicator < ActiveRecord::Base
-  belongs_to :lsdp_task, :foreign_key => 'uzdevums_id'
+  belongs_to :lsdp_task, :foreign_key => 'rezultats_id'
 end

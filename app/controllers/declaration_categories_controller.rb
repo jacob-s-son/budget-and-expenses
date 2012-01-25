@@ -1,0 +1,2 @@
+class DeclarationCategoriesController < ApplicationController
+end

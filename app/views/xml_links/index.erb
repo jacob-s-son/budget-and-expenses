@@ -1,0 +1,5 @@
+<ul>
+  <% Rails.application.routes.routes.select{|r| r.to_s.match(/format/) && r.to_s.match(/xml|rails/).nil? }.map {|r| r.path.sub(/\(\.:format\)/, "") }.each do |r| %>
+    <li><%= link_to r, "#{r}.xml" %></li>
+  <% end %>
+</ul>

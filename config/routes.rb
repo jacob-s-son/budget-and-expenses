@@ -9,6 +9,8 @@ BudgetAndExpenses::Application.routes.draw do
   resources :lsdp_operation_result_times, :only => [:index]
   resources :lsdp_policy_results, :only => [:index]
   resources :lsdp_indicators, :only => [:index]
-  
-  root :to => "ministries#index" 
+  resources :declaration_categories, :only => [:index]
+  resources :declaration_statements, :only => [:index]
+  resources :xml_links, :only => [:index]
+  root :to => "xml_links#index" 
 end

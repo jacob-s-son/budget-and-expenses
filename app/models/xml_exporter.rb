@@ -1,9 +1,10 @@
 require 'nokogiri'
+ADDITIONALS_COLUMNS = [ "parent_category_id" ]
 
 class XmlExporter
   def self.to_xml(exportable)
     ref_to_namespace = exportable.to_s.underscore.downcase.to_sym
-    exportable_columns = exportable.column_names - exportable.reflect_on_all_associations.map { |ref| ref.foreign_key.to_s }.uniq - ["id"]
+    exportable_columns = exportable.column_names - exportable.reflect_on_all_associations.map { |ref| ref.foreign_key.to_s }.uniq - ["id", "created_at", "updated_at"]
     
     b = Nokogiri::XML::Builder.new(:encoding => 'UTF-8')
     b.RDF("xmlns:rdf" => "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "xmlns:#{exportable.namespace_ref}" => "#{exportable.class_namespace}#") {
