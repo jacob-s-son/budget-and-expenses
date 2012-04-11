@@ -12,6 +12,7 @@ gem 'nokogiri'
 gem 'capistrano'
 gem 'capistrano-ext'
 gem 'therubyracer'
+gem 'roo', '1.3.11'
 
 # Gems used only for assets and not required
 # in production environments by default.
